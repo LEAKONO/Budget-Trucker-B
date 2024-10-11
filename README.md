@@ -104,3 +104,6 @@ This project provides a Flask API for managing personal finances, including trac
     "current_amount": 5000,
     "target_date": "2025-12-31"
   }
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
