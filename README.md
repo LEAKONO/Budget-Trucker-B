@@ -107,3 +107,5 @@ This project provides a Flask API for managing personal finances, including trac
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+1. **Fork the repository**: Click on the "Fork" button at the top right corner of the repository page.
+
