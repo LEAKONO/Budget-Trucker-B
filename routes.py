@@ -328,7 +328,7 @@ def get_all_budgets():
     budgets = Budget.query.filter_by(user_id=user_id).all()
 
     if not budgets:
-        return jsonify({'message': 'No budget records found'}), 404
+        return jsonify([]), 200  
 
     budget_data = [
         {
@@ -339,8 +339,8 @@ def get_all_budgets():
             'month': budget.month
         } for budget in budgets
     ]
-
     return jsonify(budget_data), 200
+
 @bp_routes.route('/financial_goals', methods=['POST'])
 @jwt_required()
 def add_financial_goal():
